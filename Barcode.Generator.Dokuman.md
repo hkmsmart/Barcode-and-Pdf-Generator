@@ -2,6 +2,8 @@
 
 ## API Referans
 
+Bu kitaplık, doğrusal ve iki boyutlu barkodlar oluşturmak için yardımcı PHP sınıfları içerir:
+
 #### Get Method
 
 ```http
@@ -20,7 +22,7 @@
 | `height`  | `integer` | * Barkod yükseklik (çarpma faktörü olarak mutlak veya negatif değer kullanın)|
 | `color`   | `string`  | * barkod rengi|
 | `backgroundColor` | `string` | * barkod arkaplan rengi |
-| `output`          | `string` | * barkod çıktı türü (pngBase64,getSvgCode,Footer,getGrid)|
+| `output`          | `string` | * barkod çıktı türü (pngBase64,getSvgCode,getHtmlDiv,getGrid)|
 | `grid2Value`    | `string` | Barkod grid çıktı türünü değeri özel ise ek olarak parametre kulanılabilir. |
 
 
