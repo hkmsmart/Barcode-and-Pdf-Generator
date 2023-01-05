@@ -1,24 +1,32 @@
-# Lumen PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+# Barcode-and-Pdf-Generator
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-## Official Documentation
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-## Contributing
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Servis kullanımı ve örnek request response
 
-## Security Vulnerabilities
+ - [Barcode Generator Dokuman](https://github.com/hkmsmart/Barcode-and-Pdf-Generator/blob/main/Barcode.Generator.Dokuman.md)
+ - [Pdf Generator Dokuman](https://github.com/hkmsmart/Barcode-and-Pdf-Generator/blob/main/Pdf%20Generator%20Dokuman.md)
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-## License
+Merhaba,bu projede 
+1. kısım, farklı barkod türlerini destekleyen , barkod üretme restapi servisi yazılmıştır.
+2. kısımda request ile gönderilen pdf içine yazı yazma, resim ekleme  restapi servisi yazılmıştır.
+3. kısımda requestte gönderilen değerleri yeni bir pdf dosyası oluşturmak ve içine değerleri doldurmak için bir restapi servisi yazılmıştır.
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Referans Libary
+
+[Laravel Lumen](https://lumen.laravel.com/docs/9.x)
+
+[Barcode Library](https://github.com/tecnickcom/tc-lib-barcode)
+
+[Pdf Library](https://github.com/Setasign/FPDI)
+
+## Author
+
+- [@hkmsmart](https://github.com/hkmsmart)
+
