@@ -22,6 +22,11 @@ class BarocdeController extends Controller
 
     public function create(Request $request){
         try {
+            $typeArr = Array('pngBase64','getSvgCode','getHtmlDiv','getGrid');
+            if (!in_array($request->output, $typeArr)){
+                return response()->json(['status'=>'error','message'=>'undefined: output']);
+            }
+
             $barcode    = new Barcode();
             $this->bobj = $barcode->getBarcodeObj($request->type,$request->value,$request->width,
                                 $request->height,$request->color,explode(",",$request->padding))
