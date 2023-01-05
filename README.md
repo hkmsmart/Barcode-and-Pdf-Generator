@@ -1,16 +1,12 @@
 
 # Barcode-and-Pdf-Generator
 
-
-
-
-
 ## Servis kullanımı ve örnek request response
 
  - [Barcode Generator Dokuman](https://github.com/hkmsmart/Barcode-and-Pdf-Generator/blob/main/Barcode.Generator.Dokuman.md)
  - [Pdf Generator Dokuman](https://github.com/hkmsmart/Barcode-and-Pdf-Generator/blob/main/Pdf%20Generator%20Dokuman.md)
 
-
+#
 Merhaba,bu projede 
 1. kısım, farklı barkod türlerini destekleyen , barkod üretme restapi servisi yazılmıştır.
 2. kısımda request ile gönderilen pdf içine yazı yazma, resim ekleme  restapi servisi yazılmıştır.
@@ -18,7 +14,7 @@ Merhaba,bu projede
 
 
 
-## Referans Libary
+## Referanslar
 
 [Laravel Lumen](https://lumen.laravel.com/docs/9.x)
 
@@ -26,7 +22,7 @@ Merhaba,bu projede
 
 [Pdf Library](https://github.com/Setasign/FPDI)
 
-## Author
+## Yazan
 
 - [@hkmsmart](https://github.com/hkmsmart)
 
