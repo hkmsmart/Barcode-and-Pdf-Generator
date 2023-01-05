@@ -2,9 +2,6 @@
 
 ## API Referans
 
-Bu kitaplık, doğrusal ve iki boyutlu barkodlar oluşturmak için yardımcı PHP sınıfları içerir:
-
-
 
 #Bu kitaplık, doğrusal ve iki boyutlu barkodlar oluşturmak için yardımcı PHP sınıfları içerir:
 
