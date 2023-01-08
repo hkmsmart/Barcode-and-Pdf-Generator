@@ -66,7 +66,6 @@
 | :-------- | :-------  | :------------------------- |
 | `type`    | `string`  | * Barkod tipi  |
 | `value`   | `string`  | * Barkod okunduğunda çıkan değer  |
-| `value`   | `string`  | * Barkod okunduğunda çıkan değer  |
 | `width`   | `integer` | * Barkod genişlik (çarpma faktörü olarak mutlak veya negatif değer kullanın) |
 | `height`  | `integer` | * Barkod yükseklik (çarpma faktörü olarak mutlak veya negatif değer kullanın)|
 | `color`   | `string`  | * barkod rengi|
