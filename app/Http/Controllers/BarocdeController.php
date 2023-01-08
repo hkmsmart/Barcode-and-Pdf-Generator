@@ -22,9 +22,9 @@ class BarocdeController extends Controller
 
     public function create(Request $request){
         try {
-            $typeArr = Array('pngBase64','getSvgCode','getHtmlDiv','getGrid');
+            $typeArr = Array('pngBase64','getSvgCode','getHtmlDiv','getGrid','getGridCustom');
             if (!in_array($request->output, $typeArr)){
-                return response()->json(['status'=>'error','message'=>'undefined: output']);
+                return response()->json(['status'=>'error','message'=>'undefined: output'],400);
             }
 
             $barcode    = new Barcode();
@@ -32,7 +32,7 @@ class BarocdeController extends Controller
                                 $request->height,$request->color,explode(",",$request->padding))
                                 ->setBackgroundColor('#f0f0f0');
 
-            if($request->output == 'grid2'){
+            if($request->output == 'getGridCustom'){
                 if(isset($request->grid2Value)){
                     $this->gridVal = explode(',',$request->grid2Value);
                 }
@@ -45,13 +45,13 @@ class BarocdeController extends Controller
             }
             else{
                 $output = $request->output;
-                $data   = $this->bobj->$output();
+                $data   = str_replace('"',"'",str_replace(array("\r", "\n","\t"), '', $this->bobj->$output()));
             }
 
             return response()->json(['status'=>'success','data'=>[$request->output => $data]]);
         }
         catch (\Exception $e){
-            return response()->json(['status'=>'error','message'=>$e->getMessage()]);
+            return response()->json(['status'=>'error','message'=>$e->getMessage()],400);
         }
 
     }
