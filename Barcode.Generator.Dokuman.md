@@ -90,13 +90,13 @@
 ## Örnek Kullanım  / Request & Response
 #Not
 
-[BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-image-converter)
+[BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-image-converter){:target="_blank" rel="noopener"}
 
-[SGV çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://www.svgviewer.dev/svg-to-png)
+[SGV çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://www.svgviewer.dev/svg-to-png){:target="_blank" rel="noopener"}
 
-[HTML çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/htmlviewer)
+[HTML çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/htmlviewer){:target="_blank" rel="noopener"}
 
-[getGrid "Binary" çıktılarını fotoğraf olarak görmek için, output kopyalayıp kopyalaıyıp linkte açılan siteye yapıştırınız.](https://www.dcode.fr/binary-image)
+[getGrid "Binary" çıktılarını fotoğraf olarak görmek için, output kopyalayıp kopyalaıyıp linkte açılan siteye yapıştırınız.](https://www.dcode.fr/binary-image){:target="_blank" rel="noopener"}
 
 #
 #EndPoint: http://localhost/PdfAndBarcodes/public
