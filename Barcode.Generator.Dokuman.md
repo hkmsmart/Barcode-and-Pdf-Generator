@@ -101,7 +101,7 @@
 
 #
 #EndPoint: http://localhost/PdfAndBarcodes/public
-
+#
 #QRCODE barcode, output:pngBase64
 ```Request
 GET: /createBarcode
