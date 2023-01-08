@@ -44,6 +44,7 @@
 |RAW | 2B HAM MOD virgülle ayrılmış satırlar|
 |RAW2 | 2D RAW MOD satırları köşeli parantezler içine alınır|
 
+#
 
 | Çıktı Türleri| Çıktı Türleri |
 |  :--------  | :-------- |
@@ -78,11 +79,11 @@
 
 #
 
-#### Response Parametreler ,HttpCode:400
+#### Response Parametreler 
 
 | Parametre | Tip      | Açıklama                |
 | :-------- | :-------  | :------------------------- |
-| `status`    | `string`  | * servis sonucu iki değer alır ("success","error")  |
+| `status`    | `string`  | * servis sonucu iki değer alır ("success,httpCode:200","error,httpCode:400")  |
 | `data`   | `object`  | * request gönderilen ouput, içinde çıktı sonucunu verir |
 | `message`   | `string` | * işlem hatalı ise hata mesajını döner) |
 
