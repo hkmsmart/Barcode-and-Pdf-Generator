@@ -91,7 +91,7 @@
 #
 
 
-#Örnek Kullanım  / Request & Response
+
 
 ##Not
 
@@ -106,7 +106,12 @@
 
 #
 #EndPoint: http://localhost/PdfAndBarcodes/public
+
 #
+
+#Örnek Kullanım  / Request & Response
+
+
 #QRCODE barcode, output:pngBase64
 ```Request
 GET: /createBarcode
