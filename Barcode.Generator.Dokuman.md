@@ -46,7 +46,7 @@
 
 #
 
-| Çıktı Türleri| Çıktı Türleri |
+| Çıktı Parametreleri| Çıktı Türleri |
 |  :--------  | :-------- |
 |pngBase64|PNG resmi|
 |getSvgCode|SVG Resmi|
@@ -83,11 +83,12 @@
 
 | Parametre | Tip      | Açıklama                |
 | :-------- | :-------  | :------------------------- |
-| `status`    | `string`  | * servis sonucu iki değer alır ("success,httpCode:200","error,httpCode:400")  |
+| `status`    | `string`  | * servis sonucu iki değer alır ("success, httpCode:200 ","error, httpCode:400 ")  |
 | `data`   | `object`  | * request gönderilen ouput, içinde çıktı sonucunu verir |
 | `message`   | `string` | * işlem hatalı ise hata mesajını döner) |
 
 
+#
 ## Örnek Kullanım  / Request & Response
 #Not
 
