@@ -90,9 +90,8 @@
 ## Örnek Kullanım  / Request & Response
 #Not
 
-[Hello, world!](http://example.com/){target="_blank"}
 
-[BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-
+[BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-image-converter target="_blank)
 
 [SGV çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://www.svgviewer.dev/svg-to-png)
 
