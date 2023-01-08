@@ -71,6 +71,7 @@
 | `height`  | `integer` | * Barkod yükseklik (çarpma faktörü olarak mutlak veya negatif değer kullanın)|
 | `color`   | `string`  | * barkod rengi|
 | `backgroundColor` | `string` | * barkod arkaplan rengi |
+| `padding` | `string` | * barkod dış boşluk "-2, -2, -2, -2" (çarpma faktörü olarak mutlak veya negatif değer kullanın) |
 | `output`          | `string` | * barkod çıktı türü (pngBase64,getSvgCode,getHtmlDiv,getGrid)|
 | `grid2Value`    | `string` | Barkod grid çıktı türünü değeri özel ise ek olarak parametre kulanılabilir. |
 
