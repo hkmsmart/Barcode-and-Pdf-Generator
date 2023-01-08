@@ -90,7 +90,7 @@
 ## Örnek Kullanım  / Request & Response
 #Not
 
-[BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-image-converter){:target="_blank" rel="noopener"}
+[BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-image-converter){target="_blank"}
 
 [SGV çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://www.svgviewer.dev/svg-to-png){:target="_blank" rel="noopener"}
 
