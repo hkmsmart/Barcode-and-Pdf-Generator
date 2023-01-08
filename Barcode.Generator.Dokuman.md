@@ -88,7 +88,12 @@
 | `message`   | `string` | * işlem hatalı ise hata mesajını döner) |
 
 
-#Örnek Kullanım  / Request & ResponseNot
+#
+
+
+#Örnek Kullanım  / Request & Response
+
+##Not
 
 
 [BASE64 çıktılarını fotoğraf olarak görmek için, output değerini kopyalayıp linkte açılan siteye yapıştırınız.](https://codebeautify.org/base64-to-image-converter)
