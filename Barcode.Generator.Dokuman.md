@@ -109,7 +109,7 @@
 
 #
 
-#Örnek Kullanım  / Request & Response
+#Örnek Kullanımlar  / Request & Response
 
 
 #QRCODE barcode, output:pngBase64
