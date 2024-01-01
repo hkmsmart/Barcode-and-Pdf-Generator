@@ -54,10 +54,10 @@
 |getGrid|Unicode Dizisi|
 |getGrid:grid2Value|İkili Dizi|
 
-#### Get Method
+#### POST Method
 
 ```http
-  GET /createBarcode
+  POST /createBarcode
 ```
 
 
@@ -113,7 +113,7 @@
 
 #Default params: QRCODE barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "value":"0123456789-Test"
@@ -129,7 +129,7 @@ GET: /createBarcode
 
 #QRCODE barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"QRCODE",
@@ -152,7 +152,7 @@ GET: /createBarcode
 
 #QRCODE,H,ST,0,0 barcode, 'QR-CODE WITH PARAMETERS' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"QRCODE,H",
@@ -175,7 +175,7 @@ GET: /createBarcode
 
 #DATAMATRIX barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"DATAMATRIX",
@@ -198,7 +198,7 @@ GET: /createBarcode
 
 #DATAMATRIX,R barcode, 'DATAMATRIX Rectangular (ISO/IEC 16022) RECTANGULAR' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"DATAMATRIX,R",
@@ -221,7 +221,7 @@ GET: /createBarcode
 
 #DATAMATRIX,S,GS1 barcode, 'GS1 DATAMATRIX (ISO/IEC 16022) SQUARE GS1' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"DATAMATRIX,S,GS1",
@@ -244,7 +244,7 @@ GET: /createBarcode
 
 #DATAMATRIX,R,GS1 barcode, 'GS1 DATAMATRIX (ISO/IEC 16022) RECTANGULAR GS1' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"DATAMATRIX,R,GS1",
@@ -267,7 +267,7 @@ GET: /createBarcode
 
 #LRAW barcode, '1D RAW MODE (comma-separated rows of 01 strings)' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"LRAW",
@@ -291,7 +291,7 @@ GET: /createBarcode
 
 #SRAW barcode, '2D RAW MODE (comma-separated rows of 01 strings)' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"SRAW",
@@ -315,7 +315,7 @@ GET: /createBarcode
 
 #PDF417 barcode, 'PDF417 (ISO/IEC 15438:2006)' output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"PDF417",
@@ -338,7 +338,7 @@ GET: /createBarcode
 
 #C128A barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C128A",
@@ -362,7 +362,7 @@ GET: /createBarcode
 
 #C128B barcode, output:getSvgCode
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C128B",
@@ -385,7 +385,7 @@ GET: /createBarcode
 
 #C128C barcode, output:getHtmlDiv
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C128C",
@@ -408,7 +408,7 @@ GET: /createBarcode
 
 #C128 barcode, output:getGrid
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C128",
@@ -431,7 +431,7 @@ GET: /createBarcode
 
 #C39E+ barcode, output:getGridCustom
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C39E+",
@@ -455,7 +455,7 @@ GET: /createBarcode
 
 #C39E barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C39E",
@@ -479,7 +479,7 @@ GET: /createBarcode
 
 #C39+ barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C39+",
@@ -503,7 +503,7 @@ GET: /createBarcode
 
 #C39 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C39",
@@ -528,7 +528,7 @@ GET: /createBarcode
 
 #C93 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"C93",
@@ -553,7 +553,7 @@ GET: /createBarcode
 
 #CODABAR barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"CODABAR",
@@ -578,7 +578,7 @@ GET: /createBarcode
 
 #CODE11 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"CODE11",
@@ -603,7 +603,7 @@ GET: /createBarcode
 
 #EAN13 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"EAN13",
@@ -628,7 +628,7 @@ GET: /createBarcode
 
 #EAN2 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"EAN2",
@@ -652,7 +652,7 @@ GET: /createBarcode
 
 #EAN5 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"EAN5",
@@ -677,7 +677,7 @@ GET: /createBarcode
 
 #EAN8 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"EAN8",
@@ -702,7 +702,7 @@ GET: /createBarcode
 
 #I25+ barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"I25+",
@@ -726,7 +726,7 @@ GET: /createBarcode
 
 #I25 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"I25",
@@ -750,7 +750,7 @@ GET: /createBarcode
 
 #IMB barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"IMB",
@@ -774,7 +774,7 @@ GET: /createBarcode
 
 #IMBPRE barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"IMBPRE",
@@ -798,7 +798,7 @@ GET: /createBarcode
 
 #KIX barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"KIX",
@@ -822,7 +822,7 @@ GET: /createBarcode
 
 #MSI+ barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"MSI+",
@@ -845,7 +845,7 @@ GET: /createBarcode
 
 #MSI barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"MSI",
@@ -870,7 +870,7 @@ GET: /createBarcode
 
 #PHARMA2T barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"PHARMA2T",
@@ -895,7 +895,7 @@ GET: /createBarcode
 
 #PHARMA barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"PHARMA",
@@ -920,7 +920,7 @@ GET: /createBarcode
 
 #PLANET barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"PLANET",
@@ -945,7 +945,7 @@ GET: /createBarcode
 
 #POSTNET barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"POSTNET",
@@ -970,7 +970,7 @@ GET: /createBarcode
 
 #RMS4CC barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"RMS4CC",
@@ -995,7 +995,7 @@ GET: /createBarcode
 
 #S25+ barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"S25+",
@@ -1018,7 +1018,7 @@ GET: /createBarcode
 
 #S25 barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"S25",
@@ -1043,7 +1043,7 @@ GET: /createBarcode
 
 #UPCA barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"UPCA",
@@ -1068,7 +1068,7 @@ GET: /createBarcode
 
 #UPCE barcode, output:pngBase64
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"UPCE",
@@ -1092,7 +1092,7 @@ GET: /createBarcode
 
 #ERROR RESPONSE ,httpCode:400
 ```Request
-GET: /createBarcode
+POST: /createBarcode
 #Request
 {
     "type":"",
