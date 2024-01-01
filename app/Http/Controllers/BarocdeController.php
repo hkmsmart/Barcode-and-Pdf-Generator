@@ -21,11 +21,12 @@ class BarocdeController extends Controller
     }
 
     public function create(Request $request){
-        try {
+        try { //Menlo, Monaco, 'Courier New', monospace
             $typeArr = Array('pngBase64','getSvgCode','getHtmlDiv','getGrid','getGridCustom');
             if (!in_array($request->output, $typeArr)){
                 return response()->json(['status'=>'error','message'=>'undefined: output'],400);
             }
+
 
             $barcode    = new Barcode();
             $this->bobj = $barcode->getBarcodeObj($request->type,$request->value,$request->width,

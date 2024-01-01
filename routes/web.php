@@ -5,6 +5,6 @@
 
 $router->get('/', 'GenerateController@index');
 
-
-$router->get('/createBarcode', 'BarocdeController@create');
-$router->get('/createBarcode', 'BarocdeController@editPdf');
+//$router->middleware('CreateBarcode')->post('/createBarcode', 'BarocdeController@create');
+$router->post('/createBarcode',['middleware'=>'CreateBarcodeRequest','uses' => 'BarocdeController@create']);
+$router->post('/editPdf', 'PdfController@edit');

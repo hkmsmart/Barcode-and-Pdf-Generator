@@ -21,7 +21,7 @@ class GenerateController extends Controller
         $fpdf = new Fpdi();
         $fpdf->AddPage();
         $fpdf->SetFont('Courier', 'B', 18);
-        $fpdf->Cell(50, 25, 'Hello World!');
+        $fpdf->Cell(50, 25, 'Hello PDF');
         $fpdf->Output(); exit();
 
     }
