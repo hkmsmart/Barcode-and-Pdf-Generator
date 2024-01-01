@@ -111,6 +111,21 @@
 
 ## Örnek Kullanımlar  / Request & Response
 
+#Default params: QRCODE barcode, output:pngBase64
+```Request
+GET: /createBarcode
+#Request
+{
+    "value":"0123456789-Test"
+}
+#Response
+{
+    "status": "success",
+    "data": {
+        "pngBase64": "iVBORw0KGgoAAAANSUhEUgAAAFQAAABUAQMAAAAmpYKCAAAABlBMVEXw8PAAAAB+p+YsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAiklEQVQokZWS0RGAMAxC2YD9t2SDGBL1/JN6PfN+0kAoqkqCXJCw0EfakrBbKe0NIeuMyQNuUXwkBjze9dnDD/vbPyKu1oW6ZwVMS6tNJGGxy/ZHzHL/TMxY7i30fiMe77OsjHfBfQUznuxGITJ2dO2G91tNuDxHiBl2T2W81t93+Mf27iSqswv4AvwKQOvQM3aWAAAAAElFTkSuQmCC"
+    }
+}
+...
 
 #QRCODE barcode, output:pngBase64
 ```Request
